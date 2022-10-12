@@ -9,7 +9,7 @@ export { ProductTitle } from "./ProductTitle";
 
 
 
-export const ProductCard:ProductCardHOCProps = Object.assign(ProductCardHOC, {
+const ProductCard:ProductCardHOCProps = Object.assign(ProductCardHOC, {
     Title:ProductTitle,
     Buttons:ProductButtons,
     Image:ProductImage,
